@@ -1,7 +1,5 @@
 package br.com.munieri.domain.cep;
 
-import org.springframework.util.StringUtils;
-
 /**
  * Value Object de CÓDIGO DE ENDEREÇAMENTO POSTAL<br /><br />
  */

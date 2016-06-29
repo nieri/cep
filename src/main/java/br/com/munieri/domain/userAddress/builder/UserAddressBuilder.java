@@ -13,7 +13,6 @@ public class UserAddressBuilder {
     public interface AddressBuilderUserStep {
 
         AddressBuilderCepStep user(Long idUser);
-
         AddressBuilderUserStep id(Long userAddressID);
     }
 
@@ -48,11 +47,8 @@ public class UserAddressBuilder {
          * @return
          */
         AddressBuilderFinalStep complement(String complement);
-
-
         UserAddress build();
     }
-
 
     private static class Steps implements AddressBuilderFinalStep, AddressBuilderCepStep, AddressBuilderUserStep, AddressBuilderNumberStep {
 

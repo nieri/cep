@@ -8,7 +8,6 @@ import br.com.munieri.infrastructure.repository.address.AddressRepository;
 import br.com.munieri.infrastructure.repository.district.City;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
